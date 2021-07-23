@@ -1,0 +1,33 @@
+<!--
+<h2>Contact Me</h2>
+
+<div class="card-container">
+    <form>
+        <label> Name </label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+
+        <label> Email </label>
+        <input type="text" id="email" name="email" placeholder="Your email...">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something..."></textarea>
+
+        <input type="submit" value = "Submit">
+    </form>
+</div>
+-->
+
+<div class="contact">
+    <div id="heading"><h2>Contact Me!</h2></div>
+    <div class="contactform">
+        <form action = "{{site.form.url}}" method="POST">
+            <label>Name</label>
+            <div class="contentdiv"><input type="text" id="name" name="name" placeholder="Your name..."></div>
+            <label>Email</label>
+            <div class="contentdiv"><input type="text" id="email" name="email" placeholder="Your email..."></div>
+            <label>Message</label>
+            <div class="contentdiv"><textarea id="message" name="message" placeholder="Write something..."></textarea></div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
